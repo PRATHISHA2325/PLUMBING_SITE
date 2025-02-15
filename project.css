@@ -1,0 +1,437 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color:skyblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    margin-left:-5px;
+    margin-top:-10px;
+}
+aside{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition:all 1s;
+}
+a{
+    height: 35px;
+    width: 100px;
+    background-color:white;
+     border-radius: 40px;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     font-size:25px;
+}
+input{
+    display:none;
+}
+.bar{
+    display:none;
+}
+.p1{
+    color:white;
+    font-size:40px;
+    justify-content:start;
+    align-items:start; 
+}
+.box1{
+    background-color:white; 
+    color:rgb(16, 116, 156);
+    clear: left;
+     height: 600px;
+     background-image:url("https://static.vecteezy.com/system/resources/previews/005/006/735/non_2x/plumbing-service-with-plumber-workers-repair-maintenance-fix-home-and-cleaning-bathroom-equipment-in-flat-background-illustration-vector.jpg");
+     background-repeat:no repeat;
+}
+.p2{
+    font-size: 50px; 
+    text-align: start;
+     padding-top: 80px;
+      margin: 0px;
+      margin-left:30px;
+}
+.box2{
+    background-color:skyblue; 
+    color: white; 
+    clear: left;
+     height: 600px;
+}
+.box3{
+    background-color:white; 
+    color:rgb(34, 88, 109);
+    clear: left;
+     height: 600px;
+     display:flex;
+    
+    
+}
+.box4{
+    background-color:skyblue; 
+    color: white; 
+    clear: left;
+     height: 600px;
+}
+.p3{
+    font-size: 50px; 
+    text-align: start;
+     padding-top: 10px;
+      margin: 0px;
+      margin-left:30px;
+}
+.p4{
+    font-size:20px; 
+    text-align: start;
+     padding-top: 20px;
+      margin: 0px;
+      margin-left:30px;
+}
+.time{
+    font-size:40px;
+    color:blue;
+}
+.p5{
+    color:blue;
+    margin-top:-15px;
+    justify-content:center;
+    align-items:center;
+    padding-left:70px;
+    
+}
+.p6{
+    color:blue;
+    font-size:40px;
+    margin-top:80px;
+    margin-left:-480px;
+}
+.p7{
+        font-size:40px;
+        margin-left:25px;
+        color:rgb(17, 53, 68);
+        margin-top:10px;
+}
+.p8{
+ height:50px;
+ width:200px;
+ background-color:blue;
+ color:white;   
+ font-size:20px;
+ margin-left:30px;
+ border-radius:20px;
+}
+.p9{
+    color:white;
+    font-size:40px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    padding:20px;
+}
+.card1{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    margin-top:80px;
+    margin-left:50px;
+    float:left;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIVVXvooXlJfECCeiD4LOuUfj5I4Vs5Me8gw&s");
+    position: relative;
+}
+.card2{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    margin-top:80px;
+    margin-left:50px;
+    float:left;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5aAGj-pn8_HgIKHYjJ-sr65Fw6JXWTc3QNA&s");
+    position: relative;
+}
+.card3{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    margin-top:80px;
+    margin-left:50px;
+    float:left;
+    background-image:url("https://img.freepik.com/premium-vector/plumber-repairing-tap-plumber-repairing-tap-plumber-repairing-tap-vector-illustration_1142-86305.jpg?w=360");
+    position: relative;
+}
+.card4{
+    height:300px;
+    width:300px;
+    border:2px solid black;
+    margin-top:80px;
+    margin-left:50px;
+    float:left;
+    background-image:url("https://img.freepik.com/free-vector/professional-plumbers-uniform-provide-installation-repair-work-male-worker-with-wrench-adjusts-boiler-second-technician-takes-measurements-shower-cabin-maintenance-repair-services_107791-23844.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721606400&semt=ais_user");
+    position: relative;
+}
+.p10{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: relative;
+    opacity:0;
+}
+.p11{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity:0;
+}
+.p12{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+.p13{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .card1:hover .p10 {
+    opacity: 1;
+    background-color:white;
+    border-radius:50px;
+    border:5px dotted blue;
+  }
+  
+  .card1:hover .overlay {
+    opacity: 1;
+    
+  }
+  .card2:hover .p11 {
+    opacity: 1;
+    background-color:blue;;
+    border-radius:70px;
+    color:white;
+    padding-left:80px;
+    padding-right:80px;
+    border:5px dotted white;
+   
+  }
+  
+  .card2:hover .overlay {
+    opacity: 1;
+  }
+  .card3:hover .p12 {
+    opacity: 1;
+    background-color:white;
+    border-radius:50px;
+    padding-left:80px;
+    padding-right:80px;
+    border:5px dotted blue;
+  }
+  
+  .card3:hover .overlay {
+    opacity: 1;
+  }
+  .card4:hover .p13 {
+    opacity: 1;
+    background-color:blue;
+    border-radius:50px;
+    color:white;
+    padding-left:80px;
+    padding-right:80px;
+    border:5px dotted white;
+  }
+  
+  .card4:hover .overlay {
+    opacity: 1;
+  }
+  .card1:hover{
+    z-index:1;
+   border-radius:50px;
+  }
+  .card2:hover{
+    z-index:1;
+   border-radius:50px;
+  }
+  .card3:hover{
+    z-index:1;
+   border-radius:50px;
+  }
+  .card4:hover{
+    z-index:1;
+   border-radius:50px;
+  }
+.p14{
+    padding-left:10px;
+    margin-top:30px;
+    font-size:30px;
+    padding-left:10px;
+    margin-left:20px;
+}
+.p15{
+    font-size:30px;
+   text-align:center;
+   padding-left:20px;
+  
+}
+.p16{
+    font-size:30px;
+    margin-right:60px;
+    float:right;
+    margin-top:-380px;
+}
+.table{
+    height:400px;
+    width:70%;
+    border:5px solid black;
+    margin-top:100px;
+    margin-left:-100px; 
+}
+.p17{
+    margin-right:80px;
+    float:right;
+    margin-top:-310px;
+}
+.p18{
+    margin-right:80px;
+    float:right;
+    margin-top:-280px;
+}
+.p19{
+    margin-right:80px;
+    float:right;
+    margin-top:-250px;
+}
+.p20{
+    margin-right:80px;
+    float:right;
+    margin-top:-220px;
+}
+.p21{
+    margin-right:80px;
+    float:right;
+    margin-top:-190px;
+}
+.p22{
+    margin-right:80px;
+    float:right;
+    margin-top:-160px;
+}
+.p23{
+    margin-right:80px;
+    float:right;
+    margin-top:-130px;
+}
+.p24{
+    margin-right:80px;
+    float:right;
+    margin-top:-100px;
+}
+.p25{
+    margin-right:80px;
+    float:right;
+    margin-top:-70px;
+}
+.p26{
+    margin-right:80px;
+    float:right;
+    margin-top:-40px;
+}
+.p27{
+    font-size:40px; 
+    text-align: center;
+     padding-top: 20px;
+      margin: 0px;
+      margin-left:30px;
+}
+.c1{
+    height:400px;
+    width:400px;
+    margin-top:100px;
+    float:left;
+}
+.icon{
+    color:black;
+    padding-top:10px;
+    width:100%;
+    margin-top:-270px;
+    text-align:center;
+    margin-left:-350px;
+}
+.c2{
+    height:100%;
+    width:250px;
+    margin-top:130px;
+    margin-left:430px;
+}
+.c3{
+    height:100%;
+    width:250px;
+   margin-top:-630px;
+    margin-left:700px;
+}
+.c4{
+    height:100%;
+    width:250px;
+    float:right;
+    margin-right:280px;
+    margin-top:-630px;
+    
+}
+.c5{
+    height:100%;
+    width:250px;
+    margin-top:100px;
+   float:right;
+   margin-top:-630px;
+}
+
+
+
+
+
